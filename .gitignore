@@ -1,0 +1,10 @@
+.ftp
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+logs/
+*.log
+chat_history/
