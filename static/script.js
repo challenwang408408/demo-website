@@ -597,7 +597,7 @@ async function loadChat(chatId) {
         if (chatHistory.length === 0) {
             container.innerHTML = `
                 <div class="welcome-message">
-                    <h1>欢迎使用 AI Chat</h1>
+                    <h1>欢迎使用 Challen的AI应用</h1>
                     <p>支持 Agentic Loop，可以自动调用搜索工具获取最新信息</p>
                 </div>
             `;
@@ -675,7 +675,7 @@ async function deleteChat(chatId, event) {
                 const container = document.getElementById('chatContainer');
                 container.innerHTML = `
                     <div class="welcome-message">
-                        <h1>欢迎使用 AI Chat</h1>
+                        <h1>欢迎使用 Challen的AI应用</h1>
                         <p>支持 Agentic Loop，可以自动调用搜索工具获取最新信息</p>
                     </div>
                 `;
@@ -702,7 +702,7 @@ function newChat() {
     const container = document.getElementById('chatContainer');
     container.innerHTML = `
         <div class="welcome-message">
-            <h1>欢迎使用 AI Chat</h1>
+            <h1>欢迎使用 Challen的AI应用</h1>
             <p>支持 Agentic Loop，可以自动调用搜索工具获取最新信息</p>
         </div>
     `;

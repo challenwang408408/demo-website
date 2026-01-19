@@ -40,26 +40,28 @@ AI_BUILDER_CHAT_ENDPOINT = f"{AI_BUILDER_BASE_URL}/chat/completions"
 AI_BUILDER_SEARCH_ENDPOINT = f"{AI_BUILDER_BASE_URL}/search/"
 
 app = FastAPI(
-    title="hello",
+    title="Challen的AI应用",
     description="""
-    ## Hello API 接口文档
-    
-    这是一个简单的问候接口，用于测试和演示 FastAPI 的使用。
-    
-    ### 功能特点
-    - 支持中文和英文名字
-    - 支持拼音输入
-    - 返回友好的问候消息
-    
-    ### 使用场景
-    - API 测试
-    - 学习 FastAPI
-    - 快速验证服务是否正常运行
+    ## Challen的AI应用 - API 接口文档
+
+    这是一个智能AI聊天应用，集成了 AI Builder Space 平台。
+
+    ### 核心功能
+    - 🤖 AI 智能对话（支持 GPT-5 模型）
+    - 🔍 Agentic Loop 自动搜索
+    - 💬 对话历史管理
+    - 📱 流式响应展示
+
+    ### 技术特点
+    - 支持工具调用（Tool Calling）
+    - 实时搜索网络信息
+    - Server-Sent Events 流式传输
+    - 对话上下文持久化
     """,
     version="1.0.0",
     contact={
-        "name": "API 支持",
-        "email": "support@example.com",
+        "name": "Challen",
+        "email": "support@challen.ai",
     },
 )
 
